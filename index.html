@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first website!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+
+          <li><a class="grey-bg" href="login.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h2>Task to do</h2>
+      <p>Simple To do List</p>
+    </section>
+
+    <input id="userinput" type="text" placeholder="type here" />
+    <button id="addlist">Add to list</button>
+
+    <div class="card">
+      <ul id="list">
+        <div class="list-heading">
+          <p>✅ If done</p>
+          <p>Tasks</p>
+          <p>Delete</p>
+        </div>
+      </ul>
+    </div>
+
+    <div>
+      <section>
+        <h2>Sick of the list background color?</h2>
+        <p>Here is a generator for changing background color.</p>
+      </section>
+      <section class="color-inputs">
+        <input type="color" name="color1" value="#00ff00" class="color1" />
+        <input type="color" name="color2" value="#ff0000" class="color2" />
+      </section>
+      <h2 class="center">Current Color Settings</h2>
+      <h4 class="center">Adjust the above to change colors.</h4>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="about.js"></script>
+  </body>
+</html>
